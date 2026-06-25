@@ -10,7 +10,7 @@ output_dir = "content/autores"
 os.makedirs(output_dir, exist_ok=True)
 
 # Lendo o CSV direto da Web
-df = pd.read_csv(https://docs.google.com/spreadsheets/d/e/2PACX-1vR4JPkCXKpbzBTYDTi-dAWNKfEyH0NFQfUCpwNHVxL441BMh8JUOVRX_NR6MD7zHQ/pub?gid=316961322&single=true&output=csv)
+df = pd.read_csv(URL_GOOGLE_SHEETS)
 
 current_category = "Geral"
 
